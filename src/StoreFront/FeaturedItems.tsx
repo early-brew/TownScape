@@ -1,4 +1,3 @@
-import React from 'react';
 import { Layout, Row, Col, Card, Typography } from 'antd';
 import { useStore } from '../contexts/StoreContext';
 

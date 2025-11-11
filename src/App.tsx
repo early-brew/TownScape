@@ -1,8 +1,6 @@
-import React from 'react'; import { useNavigate, useParams, useLocation } from 'react-router-dom';
-
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import DashboardLayout from './DashboardLayout/DashboardLayout';
-import { Announcements } from './Announcements/Announcements';
 import StorefrontWrapper from './StoreFront/StoreFrontWrapper';
 import AboutUs from './StoreFront/AboutUs';
 import Events from './StoreFront/Events'

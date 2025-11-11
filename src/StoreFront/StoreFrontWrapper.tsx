@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Outlet, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useStore } from '../contexts/StoreContext';
 import { getStoreBySlug } from '../db/mockStores';
 import Storefront from './StoreFront';
